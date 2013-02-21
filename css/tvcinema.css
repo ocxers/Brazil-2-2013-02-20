@@ -1,0 +1,243 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    height: auto;
+    font-family: Helvetica Neue, Rockwell, sans-serif;
+    min-width: 1120px;
+    background: #ffffff;
+    color: #444444;
+}
+
+.pull-right{
+    float: right !important;
+}
+
+/* menu */
+.menu {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    border-bottom: 0 solid #444444;
+    -moz-box-shadow: 0 0 8px #444444;
+    -webkit-box-shadow: 0 0 8px #444444;
+    box-shadow: 0 0 8px #444444;
+    font-family: Myriad Pro, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background: url(../img/menu-sprite.png) 0 -1092px repeat-x;
+}
+
+.menubg {
+    background: url(../img/menu-sprite.png) no-repeat;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: block;
+    float: left;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.menu li:not(:last-child){
+    padding: 0 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.menu li:not(:first-child):not(:last-child):hover {
+    background: url(../img/menu-sprite.png) 0 -1184px repeat-x;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.logo {
+    display: block;
+    height: 70px;
+    width: 300px;
+    cursor: pointer;
+    background: url(../img/logo.png) no-repeat;
+}
+
+.facebookLogin{
+    width: 70px;
+    height: 25px;
+    margin: 21px 4px 0 0;
+    background-position: 0 -1001px;
+}
+
+.facebookLogin:hover{
+    background-position: 0 -976px;
+}
+
+.gplusLogin{
+    width: 28px;
+    height: 25px;
+    margin: 21px 12px 0 0;
+    background-position: 0 -942px;
+}
+
+.gplusLogin:hover{
+    background-position: 0 -917px;
+}
+
+.search {
+    display: block;
+    height: 70px;
+    width: 62px;
+    background: url(../img/menu-sprite.png) 9px -474px no-repeat;
+}
+
+.film{
+    height:83px;
+    width: 1096px;
+    padding: 10px 12px;
+    margin: 10px auto;
+}
+.film ul{
+    padding: 0;
+    margin: 0;
+}
+.film li:not(:last-child){
+    list-style-type: none;
+    margin-right: 10px;
+    float: left;
+}
+
+.menu-1 {
+    color: #00A3D9;
+    background-color: #00698C;
+}
+.menu-1 a{
+    color: #00A3D9;
+}
+
+.logo-1 {
+    background-position: 0 0;
+}
+
+.search-1 {
+    background-color: #00A3D9;
+}
+
+.film-1{
+    background: #000000 url(../img/menu-sprite.png) 0 -1300px repeat-x;
+}
+
+.content{
+    margin: 73px auto;
+    width: 1120px;
+    height: auto;
+    overflow: auto;
+}
+
+/* for login */
+.modal-backdrop
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000000;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+.modal
+{
+    position: fixed;
+    top: -250px;
+    left: 50%;
+    z-index: 1050;
+    overflow: auto;
+    /* this width is your login box width */
+    width: 800px;
+    height: 170px;
+    border: 1px solid #999 !important;
+    padding: 40px;
+    /* please change the margin-top and margin-left here
+     * make sure the margin-top equals 1/2 login box height
+     * and the margin-left equals 1/2 login box width */
+    margin: -125px 0 0 -440px;
+}
+#loginModal{
+    display: none;
+}
+.login-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #555555;
+}
+.login-subtitle{
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: #555555;
+}
+.login-content{
+    font-size: 13px;
+    margin-top: 30px;
+    color: #555555;
+}
+.login-list{
+    margin: 50px 0;
+}
+.login-list ul{
+    margin: 0;
+    padding: 0;
+}
+.login-list li{
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.login-list li:not(:last-child){
+    margin-right: 15px;
+}
+[class^="login-list-"]{
+    display: block;
+    width: 65px;
+    height: 65px;
+    background: url(../img/menu-sprite.png) 100px 100px no-repeat;
+}
+.login-list-facebook{
+    background-position: 0 -1527px;
+}
+.login-list-facebook:hover{
+    background-position: 0 -1592px;
+}
+.login-list-twitter{
+    background-position: 0 -1660px;
+}
+.login-list-twitter:hover{
+    background-position: 0 -1725px;
+}
+.login-list-gplus{
+    background-position: 0 -1800px;
+}
+.login-list-gplus:hover{
+    background-position: 0 -1865px;
+}
+.login-list-linkedin{
+        background-position: 0 -1940px;
+}
+.login-list-linkedin:hover{
+    background-position: 0 -2005px;
+}
+.close{
+    width: 20px;
+    height: 20px;
+    margin-top: -20px;
+    margin-right: -20px;
+    z-index: 1055;
+}
+
+/* by Shengxing.Chi 2/20/2013 */

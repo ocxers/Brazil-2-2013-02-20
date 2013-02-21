@@ -1,0 +1,109 @@
+/* ap = answer preview */
+a{
+    color: #0072ff;
+}
+a:hover{
+    color: #0072ff;
+}
+/* answer preview icons */
+[class^="ap-icon-"]{
+    width: 43px;
+    height: 43px;
+    float: left;
+    cursor: pointer;
+    background: url(../img/menu-sprite.png) 100px 100px no-repeat;
+}
+.ap-icon-up{
+    background-position: -54px 10px;
+}
+.ap-icon-down{
+    background-position: -54px -25px;
+}
+.ap-icon-star{
+    background-position: -54px -68px;
+}
+.ap-icon-count{
+    font-style: normal;
+    height: 40px;
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-position: 100px 100px;
+}
+h4{
+    font-size: 19px;
+    color: #000000;
+}
+.ap-question-title{
+    font-size: 32px;
+    color: #0072FF;
+    line-height: 40px;
+    font-weight: bold;
+}
+.ap-question-content{
+    font-size: 13px;
+    color: #444444;
+    font-weight: bold;
+}
+.ap-question-author{
+    line-height: 45px;
+}
+.ap-question-author a{
+    color: #0072FF;
+}
+.ap-answer{
+    background-color: #FFEFBF;
+    padding: 25px;
+    width: auto;
+    font-size: 13px;
+    font-weight: bold;
+    color: #444444;
+}
+/* enviar button */
+.ap-answer-enviar{
+    margin-top: 20px;
+    padding: 13px 30px;
+    line-height: 18px;
+    width: auto;
+    background-color: #2DB200;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    box-shadow: inset 0 0 0 1px #FFFFFF;
+    -webkit-box-shadow: inset 0 0 0 1px #FFFFFF;
+    -moz-box-shadow: inset 0 0 0 1px #FFFFFF;
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+/* editar button */
+.ap-answer-editar{
+    margin-top: 20px;
+    padding: 13px 30px;
+    line-height: 18px;
+    width: auto;
+    background-color: #888888;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    box-shadow: inset 0 0 0 1px #FFFFFF;
+    -webkit-box-shadow: inset 0 0 0 1px #FFFFFF;
+    -moz-box-shadow: inset 0 0 0 1px #FFFFFF;
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* social link */
+.ap-add-social{
+    color: #0072FF;
+}
+.ap-add-social a{
+    color: #0072ff;
+    text-decoration: underline;
+}
+
+/* by Shengxing.Chi 2/20/2013 */

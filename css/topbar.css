@@ -1,0 +1,290 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    height: auto;
+    font-family: Helvetica Neue, Rockwell, sans-serif;
+    min-width: 1120px;
+    background: #ffffff;
+    color: #444444;
+}
+
+.pull-right{
+    float: right !important;
+}
+/* menu */
+.menu {
+    height: 70px;
+    width: 100%;
+    border-bottom: 0 solid #444444;
+    -moz-box-shadow: 0 0 8px #444444;
+    -webkit-box-shadow: 0 0 8px #444444;
+    box-shadow: 0 0 8px #444444;
+    font-family: Myriad Pro, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background: url(../img/menu-sprite.png) 0 -1092px repeat-x;
+}
+
+.menubg {
+    background: url(../img/menu-sprite.png) no-repeat;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: block;
+    float: left;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.menu li:not(:last-child){
+    padding: 0 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.menu li:not(:first-child):not(:last-child):hover {
+    background: url(../img/menu-sprite.png) 0 -1184px repeat-x;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.logo {
+    display: block;
+    height: 70px;
+    width: 300px;
+    cursor: pointer;
+    background: url(../img/logo.png) no-repeat;
+}
+
+.facebookLogin{
+    width: 70px;
+    height: 25px;
+    margin: 21px 4px 0 0;
+    background-position: 0 -1001px;
+}
+
+.facebookLogin:hover{
+    background-position: 0 -976px;
+}
+
+.gplusLogin{
+    width: 28px;
+    height: 25px;
+    margin: 20px 12px 0 0;
+    background-position: 0 -942px;
+}
+
+.gplusLogin:hover{
+    background-position: 0 -917px;
+}
+
+.search {
+    display: block;
+    height: 70px;
+    width: 62px;
+    background: url(../img/menu-sprite.png) 9px -474px no-repeat;
+}
+
+.film{
+    height:83px;
+    width: 1096px;
+    padding: 10px 12px;
+    margin: 10px auto;
+}
+.film ul{
+    padding: 0;
+    margin: 0;
+}
+.film li:not(:last-child){
+    list-style-type: none;
+    margin-right: 10px;
+    float: left;
+}
+
+.menu-1 {
+    color: #bbbbbb;
+    background-color: #555555;
+}
+.menu-1 a{
+    color: #bbbbbb;
+}
+.menu-2 {
+    color: #00A3D9;
+    background-color: #00698C;
+}
+.menu-2 a{
+    color: #00A3D9;
+}
+.menu-3 {
+    color: #A3D900;
+    background-color: #698C00;
+}
+.menu-3 a{
+    color: #A3D900;
+}
+.menu-4 {
+    color: #E84B74;
+    background-color: #7A1D40;
+}
+.menu-4 a{
+    color: #E84B74;
+}
+.menu-5 {
+    color: #E84B74;
+    background-color: #7A1D40;
+}
+.menu-5 a{
+    color: #E84B74;
+}
+.menu-6 {
+    color: #D27C7A;
+    background-color: #6A403F;
+}
+.menu-6 a{
+    color: #D27C7A;
+}
+.menu-7 {
+    color: #FFA734;
+    background-color: #6A403F;
+}
+.menu-7 a{
+    color: #FFA734;
+}
+.menu-8 {
+    color: #F841A4;
+    background-color: #68406E;
+}
+.menu-8 a{
+    color: #F841A4;
+}
+.menu-9 {
+    color: #FFA734;
+    background-color: #D93600;
+}
+.menu-9 a{
+    color: #FFA734;
+}
+.menu-10 {
+    color: #FFA734;
+    background-color: #4A0391;
+}
+.menu-10 a{
+    color: #FFA734;
+}
+.menu-11 {
+    color: #bbbbbb;
+    background-color: #555555;
+}
+.menu-11 a{
+    color: #bbbbbb;
+}
+
+.logo-1 {
+    background-position: 0 0;
+}
+.logo-2 {
+    background-position: 0 -70px;
+}
+.logo-3 {
+    background-position: 0 -140px;
+}
+.logo-4 {
+    background-position: 0 -210px;
+}
+.logo-5 {
+    background-position: 0 -280px;
+}
+.logo-6 {
+    background-position: 0 -350px;
+}
+.logo-7 {
+    background-position: 0 -420px;
+}
+.logo-8 {
+    background-position: 0 -490px;
+}
+.logo-9 {
+    background-position: 0 -560px;
+}
+.logo-10 {
+    background-position: 0 -630px;
+}
+.logo-11 {
+    background-position: 0 -700px;
+}
+
+.search-1 {
+    background-color: #333333;
+}
+.search-2 {
+    background-color: #00A3D9;
+}
+.search-3 {
+    background-color: #A3D900;
+}
+.search-4 {
+    background-color: #E84B74;
+}
+.search-5 {
+    background-color: #E84B74;
+}
+.search-6 {
+    background-color: #D27C7A;
+}
+.search-7 {
+    background-color: #FFA734;
+}
+.search-8 {
+    background-color: #F841A4;
+}
+.search-9 {
+    background-color: #FFA734;
+}
+.search-10 {
+    background-color: #FFA734;
+}
+.search-11 {
+    background-color: #333333;
+}
+
+.film-1{
+    background: #000000 url(../img/menu-sprite.png) 0 -1300px repeat-x;
+}
+.film-2{
+    background: #00A3D9;
+}
+.film-3{
+    background: #DDDDDD;
+}
+.film-4{
+    background: #E84B74;
+}
+.film-5{
+    background: #CECEBF;
+}
+.film-6{
+     background: #D27C7A;
+ }
+.film-7{
+    background: #FFA734;
+}
+.film-8{
+    background: #F841A4;
+}
+.film-9{
+    background: #FFA734;
+}
+.film-10{
+    background: #FFA734;
+}
+.film-11{
+    background: #000000;
+}
+
+/* by Shengxing.Chi 2/20/2013 */
